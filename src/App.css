@@ -1,0 +1,69 @@
+*,
+html{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background: #39393A;
+	font-family: Indie Flower, sans-serif;
+	font-size: 20px;
+}
+
+.header {
+	font-family: Indie Flower, sans-serif;
+	font-size: 40px;
+	color: #ffffff;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+	color: #ffffff;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.Cardcontent {
+	width: 100vw;
+	height: 30vh;
+	padding-bottom: 40px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.panel {
+	height: 20vh;
+	width: 10vw;
+	margin: 10px;
+}
+
+.card {
+	background: #ffffff;
+	color:  #39393A;
+	border-radius: 10px;
+}
+
+.btn {
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+	margin: 50px;
+}
+
+button {
+	padding: 15px;
+	width: 30vw;
+	font-family: Indie Flower, sans-serif;
+	font-size: 30px;
+	background: rgb(112,127,133);
+	border-radius: 20px;
+	color: #ffffff;
+}
